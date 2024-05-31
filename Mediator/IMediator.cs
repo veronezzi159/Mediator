@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MediatorEX
 {
-    public interface Mediator
+    public interface IMediator
     {
         void SendMessage(string message, User user);
 

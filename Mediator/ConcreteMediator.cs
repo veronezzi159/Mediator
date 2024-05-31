@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MediatorEX
 {
-    public class ConcreteMediator : Mediator
+    public class ConcreteMediator : IMediator
     {
         private List<User> usersList = new List<User> ();
         public void RegisterUser(User user )
